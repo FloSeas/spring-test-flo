@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: coffeemachine
+    
+build:  
+  version: "3.0"
+
+account:
+  message: "Welcome to Coffee App Default"
+  details:
+    name: "Bob"
+    email: "florian@test.fr"
+  phone:
+    - 1234569874
+    - 789654135

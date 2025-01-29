@@ -1,0 +1,29 @@
+greeting:
+  name: Dakota
+  coffee: ${greeting.name} is drinking Cafe Cereza
+spring:
+  application:
+    name: coffeemachine
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+logging:
+  level:
+    org:
+      formation:
+        controller:
+          CoffeeController: TRACE
+
+build:  
+  version: "2.0"
+
+account:
+  message: "Welcome to Coffee App QA"
+  details:
+    name: "Bob"
+    email: "florian@test.fr"
+  phone:
+    - 1234569874
+    - 789654135
