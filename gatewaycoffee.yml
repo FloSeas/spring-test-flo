@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: gatewaycoffee
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  info:
+    env:
+      enabled: true
+  endpoint:
+    shutdown:
+      access: unrestricted
